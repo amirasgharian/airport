@@ -114,7 +114,7 @@ void airplane::remove()
   }
   if(testremove == 0)
   {
-    throw invalid_argument("there is no airplane_id like this to remove !") ;
+    throw invalid_argument("there is no airplane_id like this to remove !**") ;
   }
 }
 
